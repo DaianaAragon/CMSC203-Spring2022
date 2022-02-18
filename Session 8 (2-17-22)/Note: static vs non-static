@@ -1,0 +1,10 @@
+// STATIC VS NON=STATIC
+
+- When an attribute is defined as static, it only exists one copy of said attribute in the entire class.
+  This means that a single copy of the static attribute is shared by all instances of the class.
+
+
+            //  IMPORTANT!!!
+- Non-static methods can access both static AND non-static attributes.
+
+- Static methods CANNOT access non-static attributes.
